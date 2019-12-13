@@ -6,3 +6,27 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+.characterCards {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.characterCard {
+  height: 300px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: antiquewhite;
+  padding: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.801);  
+  margin: 10px;
+}
+
+.characterCard .charName {
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-style: bold;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
